@@ -1,0 +1,22 @@
+{
+  "s3_file_chek": {
+    "s3_to_s3": {
+      "bucket": "dqtool",
+      "prefix": "input_files/",
+      "keyword": ["PRODUCT_MASTER"]
+    },
+    "delete_file": {
+      "bucket": "dqtool",
+      "prefix": "input_files/",
+      "keyword": ["PRODUCT_MASTER"]
+    }
+  },
+  "s3_to_s3": {
+    "sample1": {
+      "output": {
+        "bucket": "dqtool",
+        "prefix": "testdata/${year}/${month}/${day}/"
+      }
+    }
+  }
+}

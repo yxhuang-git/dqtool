@@ -1,0 +1,6 @@
+dataset: TRANSACTION_DATA
+column: DISCOUNT_RATE
+distribution_type: continuous
+distribution_reference:
+    bins: [1, 2, 3]
+    weights: [0.5, 0.2, 0.3]
